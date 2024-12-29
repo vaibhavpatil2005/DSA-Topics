@@ -6,7 +6,7 @@ int main(){
     // false & true
     
     bool flag = false;
-    cout<<flag<<endl;
+    cout<<flag<<1<<endl;
 
     cout<<(7<4);
 
