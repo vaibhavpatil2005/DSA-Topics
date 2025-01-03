@@ -12,7 +12,7 @@ int main(){
 
         i++;  // Increment
 
-    } while(i<5); // Condition
+    } while(i<1); // Condition
 
     return 0;
 }
