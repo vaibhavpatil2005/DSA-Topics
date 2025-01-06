@@ -25,7 +25,7 @@ int main(){
         flag = true;
        }
     }
-   if(flag == true) cout<<"Element found";
+   if(flag) cout<<"Element found";
    else cout<<"Element not found ";
 
     return 0;

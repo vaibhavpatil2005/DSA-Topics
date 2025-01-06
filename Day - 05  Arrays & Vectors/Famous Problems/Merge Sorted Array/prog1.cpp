@@ -10,6 +10,7 @@ void display(vector<int>& v){
     }cout<<endl;
 
 }
+
 vector<int> merge(vector<int>& arr1, vector<int>& arr2) {
     int n = arr1.size();
     int m = arr2.size();
@@ -30,7 +31,7 @@ vector<int> merge(vector<int>& arr1, vector<int>& arr2) {
         k++;
     }
 
-    // Copy the remaining elements of arr1, if any
+    // Copy the remaining elements of arr1, if any remaining
     while (i < n) {
         res[k] = arr1[i];
         k++;
