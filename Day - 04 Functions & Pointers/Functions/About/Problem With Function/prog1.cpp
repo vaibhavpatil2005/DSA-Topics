@@ -6,7 +6,7 @@ using namespace std;
     solution :- pass by reference (using pointers)
 
 */
-int swap(int a, int b)
+int swap(int &a, int &b)
 {
     int temp = a;
     a = b;
