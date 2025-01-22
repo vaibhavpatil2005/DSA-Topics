@@ -9,7 +9,7 @@ int main(){
     cout<<ch<<endl;
 
 
-    // char cha = "avadhesh"; (String Double quote)
+    // string cha = "avadhesh"; (String Double quote)
     // cout<<cha<<endl;
     
     return 0;
