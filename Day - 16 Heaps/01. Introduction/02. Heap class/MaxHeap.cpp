@@ -205,6 +205,7 @@ int main() {
     hp.display();
 
     // Build Max Heap
+    // Build Max Heap
     int arr[6] = { -1, 54, 53, 55, 52, 50 };
     int n = 5;
 
