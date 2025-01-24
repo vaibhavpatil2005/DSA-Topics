@@ -8,7 +8,9 @@ int main(){
     // type Casting (Conversion is called)
 
     char ch = '#';
-    cout<<(int)ch;
+    char ch1='a';
+    cout<<(int)ch<<endl;
+    cout<<(int)ch1;
 
     // A - 65
     // a - 97

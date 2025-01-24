@@ -18,7 +18,7 @@ int main(){
         }
     }
 
-    if(flag = true) cout<<n<<" is a prime";
+    if(flag) cout<<n<<" is a prime";
     else cout<<n<<" is not prime";
     
     return 0;
