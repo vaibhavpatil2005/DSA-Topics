@@ -3,19 +3,19 @@ using namespace std;
 int main()
 {
 
-    // Solution 01
-    int n;
-    cout << "Enter the value of n: ";
-    cin >> n;
+    // // Solution 01
+    // int n;
+    // cout << "Enter the value of n: ";
+    // cin >> n;
 
-    int a = 1, b = 1, sum = 0;
-    for (int i = 1; i <= n - 2; i++)
-    {
-        sum = a + b;
-        a = b;
-        b = sum;
-    }
-    cout << b;
+    // int a = 1, b = 1, sum = 0;
+    // for (int i = 1; i <= n - 2; i++)
+    // {
+    //     sum = a + b;
+    //     a = b;
+    //     b = sum;
+    // }
+    // cout << b;
 
     // Solution 02
     int n;
