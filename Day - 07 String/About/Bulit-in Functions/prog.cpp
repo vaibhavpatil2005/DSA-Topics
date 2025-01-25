@@ -15,7 +15,7 @@
 
 
 */
-
+#include<bits/stdc++.h>
 #include<iostream>
 #include<string>
 #include<algorithm>
@@ -33,12 +33,12 @@ int main(){
 
 
     // 2.push_back & pop_back()
-    string str = "abcd";
-    str.push_back('e'); // character can be pushed (not string)
-    str.push_back('f');
-    str.push_back('g');
-    str.push_back('h');
-    cout<<str<<endl; // abcdefgh
+    string str1 = "abcd";
+    str1.push_back('e'); // character can be pushed (not string)
+    str1.push_back('f');
+    str1.push_back('g');
+    str1.push_back('h');
+    cout<<str1<<endl; // abcdefgh
 
 
     // 3. pop_back()
