@@ -1,0 +1,49 @@
+string str = "Avadhesh is learning c++ DSA ";
+    // cout<<str.size(); // 29 (null character did'nt counted (\n) )
+    // cout<<str.length(); // 29
+
+
+    // // 2.push_back & pop_back()
+    // string str1 = "abcd";
+    // str1.push_back('e'); // character can be pushed (not string)
+    // str1.push_back('f');
+    // str1.push_back('g');
+    // str1.push_back('h');
+    // cout<<str1<<endl; // abcdefgh
+
+
+    // // 3. pop_back()
+    // string s = "avadhesh";
+    // cout<<s<<endl;
+    // s.pop_back();
+    // s.pop_back();
+    // s.pop_back();
+    // cout<<s<<endl;
+
+
+    // // 4. Reverse()
+    // string str = "avadhesh";
+    // reverse(str.begin(),str.end()); // (reversed - all)
+    // reverse(str.begin()+2,str.end()); // (revsersed - 2-8)
+    // reverse(str.begin()+2,str.end()-1); // (reversed - 2-7))
+    // reverse(str.begin()+2,str.begin()+5); // (revseres - (2-4)
+    // cout<<str<<endl;
+
+
+    // // 5. Substr()
+    // string s = "abcdef";
+    // cout<<s.substr(4); // at this index and later all - print all char (ef)
+    // cout<<s.substr(1,3); // from b to 3 length char (idx,len) -- bcd 
+    // cout<<s.substr(2,2); // from c to 2 length char (idx,len) -- cd 
+
+
+    // // 6.to_string() - convert int to string becuase typecasting not allowed in string
+    // int x = 12345;
+    // string s = to_string(x);
+    // cout<<s<<endl;
+
+
+    // // 7. Sorting 
+    // string s = "name";
+    // sort(s.begin(),s.end());
+    // cout<<s<<endl;
