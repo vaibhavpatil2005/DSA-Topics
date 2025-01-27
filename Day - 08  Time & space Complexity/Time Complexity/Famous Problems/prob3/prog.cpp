@@ -1,4 +1,4 @@
-/*
+ /*
 
 Q() Calculate the time complexity for the following code
 
