@@ -31,7 +31,7 @@
 
         
 
-    ## In my QUEstions -- total trip is given 5 trips , then how many needed to complete 5 trips // here 
+    ## In my QUEstions -- total trip is given 5 trips , then how many needed to complete 5 trips 
 
 
 
