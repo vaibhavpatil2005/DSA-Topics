@@ -29,7 +29,10 @@ void RecurDisplay(Node* head){           // Recusrive Solu--- T.C-> O(n) S.C. ->
 
 void insertAtEnd(Node* head,int val){    // Insert Without having the Tail
     Node* t = new Node (val);
-    while(head->next != NULL) head = head->next;
+    while(head->next != NULL)
+    { 
+        head = head->next;
+    }
     head->next = t;
 }
 

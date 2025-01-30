@@ -105,8 +105,11 @@ public:                         // User Defined Data Structure
             cout<<"list is Empty"<<endl;
             return;
         }
+        Node*temp1=head;
         head = head->next;
         size--;
+        delete(temp1);
+
     }
 
     void deleteAtTail(){

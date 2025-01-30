@@ -16,37 +16,34 @@
 
         3. Copy Constructor - 
 */
-
 #include<iostream>
 using namespace std;
 
-class bike{
+class bike {
 public:
     int tyreSize;
 
-
-    // Default COnstructor
-    bike(){
-        cout<<"Cosntructor is called"<<endl;
+    // Default Constructor
+    bike() {
+        cout << "Constructor is called" << endl;
     }
 
-    // ParaMEterized Constructor
-    bike(int a,int b=100){
-        int tyerSize = a;
-        cout<<"Parameterize Constructor is called"<<endl;
+    // Parameterized Constructor
+    bike(int a, int b = 100) {
+        this->tyreSize = a;  // Corrected assignment
+        cout << "Parameterized Constructor is called" << endl;
     }
 
-    // Copy Constructor --- Call by Reference (Always)
-    bike( bike &b){
-        cout<<"Copy Constuctor is called"<<endl;
+    // Copy Constructor (Call by Reference)
+    bike(const bike &b) {  // `const` is recommended
+        cout << "Copy Constructor is called" << endl;
     }
-
 };
 
-int main(){
-    bike tvs;  // object Creation
-    bike honda(500); //
-
-    bike b2 = b1;  //Copy Constructor
-    bike b2 (b1)  // Copy Constructor
+int main() {
+    bike tvs;             // Default Constructor
+    bike honda(500, 4);   // Parameterized Constructor
+    bike b1;              // Default Constructor
+    bike b2 = b1;         // Copy Constructor
+    bike b3(b1);          // Copy Constructor (Corrected)
 }

@@ -15,12 +15,11 @@
 
 class player{
 private:
-    string name;
     int score;
     int rollno;
 public:
     void setScore(int score){ // Setter
-        this.score = score;
+        this->score = score;
     }
 
     int getScore(){
@@ -34,5 +33,5 @@ int main(){
 
 
     player Amit;                    // Compile Tume, STatic Allocation
-    amit.setScore(283);
+    Amit.setScore(283);
 }
