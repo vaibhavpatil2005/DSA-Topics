@@ -30,7 +30,7 @@ public:
         listNode* tempB = headB;
         int lenA = 0;
         while(tempA !=NULL){
-            tempA++;
+            lenA++;
             tempA = tempA->next;
         }
         int lenB = 0;

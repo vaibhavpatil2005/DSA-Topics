@@ -17,7 +17,7 @@
 class Solution {
 public:
     ListNode* deleteMiddle(ListNode* head) {
-        if(!head || !head-.next) return NULL;  // Empty list ya 1 element in list
+        if(!head || !head->next) return NULL;  // Empty list ya 1 element in list
         ListNode* slow = head;
         ListNode* fast = head;
         while(fast!=NULL && fast->next!=NULL){     // Condtions can't be interChange -- Same ORder 
