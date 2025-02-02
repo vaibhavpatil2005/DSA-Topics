@@ -1,6 +1,6 @@
 /*
 
-    ## Rotate List [Leetcode 61]
+    ## Rotate List [Leetc 61]
 
 
     ## Array
