@@ -76,7 +76,7 @@ public:
 
 -------------------------------------------------------------------------------->
 
-        MEthode - 03 time complexity O(n)
+        MEthode-03 time complexity O(n)
 
         #Hint - if the first & second values of Linked List are equal of each other ---> true;
 
