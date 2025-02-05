@@ -38,3 +38,12 @@ void pip(int n){
 int main(){
     pip(2);
 }
+// Pre 2
+// Pre 1
+// In 1
+// Post 1
+// In 2
+// Pre 1
+// In 1
+// Post 1
+// Post 2

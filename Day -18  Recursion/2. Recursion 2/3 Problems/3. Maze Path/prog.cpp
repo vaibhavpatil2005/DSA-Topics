@@ -42,5 +42,6 @@ void PrintMazePath(int sr,int sc, int er, int ec, string s){
 }
 int main(){
     PrintMazePath(0,0,2,2," ");
-    cout<<maze2(3,3);
+    cout<<maze2(3,3)<<endl;
+    cout<<maze(1,1,4,4);
 }
