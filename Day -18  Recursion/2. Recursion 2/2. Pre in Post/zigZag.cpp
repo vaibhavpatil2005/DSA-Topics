@@ -22,5 +22,5 @@ void ZigZag(int n){
 }
 
 int main(){
-    ZigZag(2);
+    ZigZag(5);
 }
