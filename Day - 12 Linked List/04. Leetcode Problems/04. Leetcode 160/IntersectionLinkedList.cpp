@@ -35,7 +35,7 @@ public:
         }
         int lenB = 0;
         while(tempB != NULL){
-            tempB++;
+            lenB++;
             tempB = tempB->next;
         }
         tempA = headA;

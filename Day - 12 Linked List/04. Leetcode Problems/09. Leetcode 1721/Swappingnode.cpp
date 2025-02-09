@@ -24,7 +24,7 @@
             temp = head;
             while(temp){
                 count++;
-                temp = tem->next;
+                temp = temp->next;
             }
 
             // Reach at the k *th Ndoe
