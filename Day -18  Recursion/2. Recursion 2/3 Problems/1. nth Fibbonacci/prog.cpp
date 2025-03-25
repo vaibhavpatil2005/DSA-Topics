@@ -20,7 +20,7 @@ int fibbo(int n){
     return fibbo(n-1) + fibbo(n-2);
 }
 int main(){
-    cout<<fibbo(8)<<endl; // 21
+    cout<<fibbo(5)<<endl; // 21
 }
 
 

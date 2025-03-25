@@ -7,11 +7,11 @@
 using namespace std;
 
 int fact1(int n){
-    int f=1;
-    for(int i=2;i<=n;i++){
-        f*=i;
-    }
-    return f;
+   int f=1;
+   for(int i=2;i<=n;i++){
+    f*=i;
+   }
+   return f;
 }
 
 void factUpTo(int n){
@@ -29,7 +29,10 @@ int factRec(int n){
 }
 
 int main(){
-    cout<<fact1(5)<<endl;
-    factUpTo(5);
-    cout<<factRec(5)<<endl;
+    int n;
+    cin>>n;
+
+    cout<<fact1(n)<<endl;
+    factUpTo(n);
+    cout<<factRec(n)<<endl;
 }

@@ -26,5 +26,5 @@ int stair(int n){
 }
 
 int main(){
-    cout<<stair(5)<<endl;
+    cout<<stair(3)<<endl;
 }

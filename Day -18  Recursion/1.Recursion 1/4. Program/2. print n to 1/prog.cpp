@@ -29,5 +29,5 @@ int main(){
     // cout<<endl;
     // print1toN(5);
     // cout<<endl;
-    print1toNWithExtraParaMeter(1,5);
+    print1toNWithExtraParaMeter(3,5);
 }

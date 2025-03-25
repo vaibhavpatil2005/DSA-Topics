@@ -10,13 +10,19 @@ using namespace std;
 
 void print(int x,int n){
     if(x>=n){
-        cout<<n<<" ";
-        return ;
-    } 
-    cout<<x<<" "; // n to 1
-    print(x+1,n);
-    cout<<x<<" "; // 1 to n
+        cout<<x<<" ";
+        return;
+    }
+       cout<<x<<" ";
+       print(x+1,n);
+
+       cout<<x<<" ";
+
 }
+
 int main(){
-    print(1,4);
+    int n;
+    cout<<"Enter Your value";
+    cin>>n;
+    print(1,n);
 }

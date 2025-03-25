@@ -28,14 +28,14 @@ public:
         }
 };
 
-int Size(Node* root){
+int Size(Node* root){  //Number of nodes in the tree
         if(root==NULL) return 0;
         return 1 + Size(root->left) + Size(root->right);
 }
 
 int Levels(Node* root){
         if(root==NULL) return 0;
-        return 1 + max(Levels(root->left),Levels(root->right));
+        return 1 + min(Levels(root->left),Levels(root->right));
 }
 
 int main(){

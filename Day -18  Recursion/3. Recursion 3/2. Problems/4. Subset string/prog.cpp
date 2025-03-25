@@ -46,6 +46,7 @@ void printSubset2(string ans, string origional,int idx){ // string not modified
     }
     char ch = origional[idx];
     printSubset2(ans+ch,origional,idx+1);
+    
     printSubset2(ans,origional,idx+1);
 }
 

@@ -29,6 +29,6 @@ int main(){
     }
     cout<<sum<<endl;
 
-    cout<<Sum(100)<<endl;
-    SumOfDigit(0,100);
+    cout<<Sum(105)<<endl;
+    SumOfDigit(0,105);
 }

@@ -38,12 +38,21 @@ int hcf(int a, int b){ // iterative solution   TC = O(min(a,b))
         if(a%i==0 && b%i==0) return i;
     }
     return 1;
+    
 }
+int LCM(int a,int b){
+    int lc;
+    lc=(a*b)/hcf(a,b);
+    return lc;
 
+
+}
 int GCD(int a,int b){ // recursive solution    TC = O(log(a+b))
     if(a==0) return b;
     else return GCD(b%a,a);
 }
 int main(){
-    cout<<hcf(24,60);
+    cout<<hcf(24,60)<<endl;
+   
+    cout<<LCM(5,8);
 }

@@ -27,6 +27,7 @@ void printSubset(int arr[],int n,int idx,vector<int>ans){
         for(int i=0;i<ans.size();i++){
             cout<<ans[i]<<" ";
         }
+        cout<<"thik";
         cout<<endl;
         return;
     }
