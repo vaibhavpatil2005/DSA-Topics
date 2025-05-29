@@ -25,7 +25,7 @@ int main()
     int a = 0;
     int b = 1;
     int sum = 0;
-    while (a < n)
+    while (b < n-1)
     {
         cout << sum;
         a = b;
@@ -33,5 +33,5 @@ int main()
         sum = a + b;
     }
 
-    return 0;
+   
 }

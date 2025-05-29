@@ -1,16 +1,4 @@
- // int n;
-    // cout << "Enter the value of n: ";
-    // cin >> n;
-
-    // int a = 0;
-    // int b = 1;
-    // int sum = 0;
-    // while (a < n)
-    // {
-    //     cout << sum;
-    //     a = b;
-    //     b = sum;
-    //     sum = a + b;
-    // }
-
-    // return 0;
+  // Solution 02
+    if(n%2==0) sum = -n/2;
+    else  sum += -n/2 + n;
+    return 0;

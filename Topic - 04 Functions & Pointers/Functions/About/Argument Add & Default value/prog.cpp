@@ -8,7 +8,8 @@ void fun(int x, float y){  // Formal parameter
 }
 
 void f(int x=2,int y=5){ 
-    cout<<a;              
+    cout<<a;  
+    cout<<x<<y;            
         
 }       
  // Default  value :-  2 is default value of x  &   5 is  default value of y 

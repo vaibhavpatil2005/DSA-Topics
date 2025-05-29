@@ -13,6 +13,8 @@ int main(){
     cout<<x/y<<endl; // divison
     cout<<x%y<<endl; // Modulo
 
+    cout<<8/5;
+
     // Special
 
 

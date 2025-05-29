@@ -7,7 +7,7 @@ Problem :-  passing value , not refrence function is not able to swap because of
 
 */
 
-void swap(int a, int b) // will not be swapped
+void swap(int &a, int &b) // will not be swapped
 {
     int temp = a;
     a = b;

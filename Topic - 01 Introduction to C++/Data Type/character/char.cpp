@@ -11,6 +11,8 @@ int main(){
 
     // string cha = "avadhesh"; (String Double quote)
     // cout<<cha<<endl;
+    string vai="vaibhavishwarpatil";
+    char c='v';
     
     return 0;
 }
