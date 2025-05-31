@@ -49,5 +49,5 @@ int main(){
     bike honda;  
     
     // Copnstuctor Mechanism called 
-    // 1st - GrandParent class     // 2nd - Parent class     // 3rd - Child class
+    // 1st - GrandParent class     // 2nd - Parent class     // 3rd - Child class   .
 }
