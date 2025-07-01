@@ -95,11 +95,11 @@ public:
 void displayTree(Node* root){
         if(root==NULL) return;
 
-        cout<<root->val<<" ";//Preorder
+        // cout<<root->val<<" ";//Preorder
         displayTree(root->left);
         // cout<<root->val<<" ";//Inorder
         displayTree(root->right);
-        // cout<<root->val<<" ";//Postorder
+        cout<<root->val<<" ";//Postorder
 }
 
 int main(){

@@ -12,5 +12,7 @@ int main(){
     int x = 12, y = 10;
     // int*p1 = &x,p2 = &y;  //Error
     int*p1 = &x,p2 = y;     // this is not giving any error 
+    cout<<*p1;
+    cout<<p2;
     return 0;
 }

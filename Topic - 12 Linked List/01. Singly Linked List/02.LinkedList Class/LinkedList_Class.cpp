@@ -66,7 +66,7 @@ public:                         // User Defined Data Structure
             head = temp;
         }
         size++; // Increment size
-    };
+    }
 
     void InsertAtIdx(int idx, int val){                    
         if(idx<0 || idx>size) cout<<"Invalid Index"<<endl;

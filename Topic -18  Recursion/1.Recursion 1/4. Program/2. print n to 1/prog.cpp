@@ -25,9 +25,9 @@ void print1toNWithExtraParaMeter(int i,int n){
 }
 
 int main(){
-    // printNto1(5);
-    // cout<<endl;
-    // print1toN(5);
-    // cout<<endl;
+    printNto1(5);
+    cout<<endl;
+    print1toN(5);
+    cout<<endl;
     print1toNWithExtraParaMeter(3,5);
 }

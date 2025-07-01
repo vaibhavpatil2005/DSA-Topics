@@ -8,7 +8,7 @@ int fibo(int n){
     return fibo(n-1)+fibo(n-2);
 }
 int main(){
-    cout<<fibo(12);
+    cout<<fibo(6);
 
 
 }

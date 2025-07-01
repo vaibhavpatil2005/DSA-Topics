@@ -36,7 +36,7 @@ void pip(int n){
 }
 
 int main(){
-    pip(3);
+    pip(2);
 }
 // Pre 2
 // Pre 1
