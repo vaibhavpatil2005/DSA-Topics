@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-    // Variable
+    // Variable  varialehh
     
     int x;
     x = 7;
