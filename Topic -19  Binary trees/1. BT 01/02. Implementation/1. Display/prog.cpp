@@ -37,9 +37,13 @@ void displayTree1(Node* root){
 
 void displayTree2(Node* root){
         if(root==NULL) return;
-        cout<<root->val<<" ";
-        displayTree2(root->right); // order changed
+       
+         // order changed
+       
         displayTree2(root->left);
+        
+        displayTree2(root->right);
+          cout<<root->val<<" ";
 }
 
 int main(){
@@ -55,8 +59,9 @@ int main(){
         a->right = c;
         b->left = d;
         b->right = e;
-        c->left = f;
+        e->left= f;
         c->right = g;
+       
 
-        displayTree1(a);
+        displayTree2(a);
 }
