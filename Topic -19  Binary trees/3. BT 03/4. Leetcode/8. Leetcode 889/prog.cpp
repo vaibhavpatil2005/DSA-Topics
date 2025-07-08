@@ -12,7 +12,7 @@
 
                 1. find first index after root in preorder
                 2. same find in postOrder where it find its left part--> lST
-                    & right part except last would be ---> RST
+                    & right part except last would be ---> RS
 
 */
 
