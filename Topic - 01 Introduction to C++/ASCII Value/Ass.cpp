@@ -10,7 +10,7 @@ int main(){
 
     // ASCII value (Value of char is called) 
 
-    // type Casting (Conversion is called added )
+    // type Casting (Conversion is called addedd )
 
     char ch = '#';
     char ch1='a';
