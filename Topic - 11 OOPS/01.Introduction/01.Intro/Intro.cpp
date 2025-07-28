@@ -11,7 +11,7 @@
 
         3. Inheritance - inherit the qualities from your parents or GrandParents.
 
-        4. Polymorphism - many form - similar code se diff functionality can be perfromed.
+        4. Polymorphism - many form - similar code se diff functionality can be perfromed.hjhj
 
 
 
