@@ -10,7 +10,7 @@ using namespace std;
 
 class Bikes {
     // Static member variable 
-    static int numOfBikes; // Belongs to the class, shared by all objects of 
+    static int numOfBikes; // Belongs to the class, shared by all objects of the c
     
     int tyreSize;
     int engineSize;
