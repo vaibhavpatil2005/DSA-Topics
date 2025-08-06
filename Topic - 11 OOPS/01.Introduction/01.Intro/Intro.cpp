@@ -7,7 +7,7 @@
     ## Concept:=
         1. Data Abstraction - Only Show neccesary interface & Hide implementtation. - Security, 
 
-        2. Data Enscapsulation - Data & object capsulate into a single unit (Class). and also class member and function....
+        2. Data Enscapsulation - Data & object capsulate into a single unit (Class). and also class member and function...
 
         3. Inheritance - inherit the qualities from your parents or GrandParents.
 
