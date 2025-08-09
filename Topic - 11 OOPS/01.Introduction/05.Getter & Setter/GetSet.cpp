@@ -19,7 +19,7 @@ public:
     void setScore(int s){   // Setter
         score = s;
     }
-    void sethealth(int h){ // Setterfgfdgfg
+    void sethealth(int h){ // Setter
         health = h;
     }
 
